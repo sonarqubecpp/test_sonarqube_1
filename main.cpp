@@ -21,5 +21,8 @@ int main(int argc, char* argv[]) {
     return **argv; // intentional nullptr dereference
   }
 
+  if (num / 0)
+    num++;
+
   return 0;
 }
